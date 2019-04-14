@@ -143,7 +143,7 @@ i {
 
 .dice {
     position: absolute;
-    left: 50%;
+    left: 56%;
     top: 178px;
     transform: translateX(-50%);
     height: 100px;
@@ -152,3 +152,34 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+/*************************************
+*** Winscore
+**************************************/
+
+.winscore--label{
+    position: absolute;
+    top: 46px;
+    left: 17%;
+    transform: translateX(-50%);
+}
+.winscore--label input{
+    margin-left: 9px;
+    border: none;
+    border-bottom: 1px solid #eb4d4d;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    width: 33px;
+}
+.score-btn{
+    position: absolute;
+    widtH: 77px;
+    top: 46px;
+    left: 33%;
+    border: 1px solid #ddd;
+    margin-left: 8px;
+}
+
+.dice1{
+    left: 44%;
+}
